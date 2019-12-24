@@ -21,6 +21,12 @@ Route::get('/test', function (Request $request) {
     return response()->json(['Laravel 6 CORS Example Test']);
 });
 
+//Video Search
 Route::post('/getVideoSiteOption', 'Video\VideoSearchController@getVideoSiteOption');
-Route::post('/getVideoOtherOption', 'Video\VideoSearchController@getVideoOtherOption');
+Route::post('/getVideoProgramOption', 'Video\VideoSearchController@getVideoProgramOption');
+Route::post('/getVideoLineOption', 'Video\VideoSearchController@getVideoLineOption');
+Route::post('/getVideoContentOption', 'Video\VideoSearchController@getVideoContentOption');
+Route::post('/getVideoAvailableDate', 'Video\VideoSearchController@getVideoAvailableDate');
+Route::post('/getChamberList', 'Video\VideoSearchController@getChamberList');
+Route::post('/getMasterMaintContents', 'Video\VideoSearchController@getMasterMaintContents');
 Route::post('/getVideoData', 'Video\VideoSearchController@getVideoData');
