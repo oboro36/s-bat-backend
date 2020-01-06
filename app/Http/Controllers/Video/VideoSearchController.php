@@ -21,6 +21,40 @@ class VideoSearchController extends Controller
             'sites' => $sites,
         ];
     }
+    public function getVideoProgramLineOption()
+    {
+        $payload = file_get_contents('php://input');
+        $JSdata = json_decode($payload, true); // to Array (if 'false' -> to stdClass)
+
+        $site = $JSdata['site'];
+
+        $programs = DB::table('TBL_RESULT_HEADER AS RH')
+            ->select('RH.PROGRAM_NO AS index', 'MP.PROGRAM AS value')
+            ->leftJoin('MST_PROGRAM AS MP', function ($join) {
+                $join->on('MP.SITE', '=', 'RH.SITE');
+                $join->on('MP.PROGRAM_NO', '=', 'RH.PROGRAM_NO');
+            })
+            ->where('RH.SITE', $site)
+            ->groupby('RH.PROGRAM_NO', 'MP.PROGRAM_NO', 'MP.PROGRAM')
+            ->get();
+
+        $lines = DB::table('TBL_RESULT_HEADER AS RH')
+            ->select('RH.LINE AS index', 'RH.LINE AS value')
+            ->where('RH.SITE', $site)
+            ->groupby('RH.LINE')
+            ->get();
+
+        if (count($programs) == 0) {
+            $response_code = 204;
+        } else {
+            $response_code = 200;
+        }
+
+        return  Response::json([
+            'programs' => $programs,
+            'lines' => $lines
+        ], $response_code);
+    }
     public function getVideoProgramOption()
     {
         $payload = file_get_contents('php://input');

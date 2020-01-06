@@ -23,6 +23,7 @@ Route::get('/test', function (Request $request) {
 
 //Video Search
 Route::post('/getVideoSiteOption', 'Video\VideoSearchController@getVideoSiteOption');
+Route::post('/getVideoProgramLineOption', 'Video\VideoSearchController@getVideoProgramLineOption');
 Route::post('/getVideoProgramOption', 'Video\VideoSearchController@getVideoProgramOption');
 Route::post('/getVideoLineOption', 'Video\VideoSearchController@getVideoLineOption');
 Route::post('/getVideoContentOption', 'Video\VideoSearchController@getVideoContentOption');

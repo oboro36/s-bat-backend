@@ -66,3 +66,93 @@
 [Fri Dec 20 17:37:03.034822 2019] [php7:error] [pid 8136:tid 848] [client 192.168.128.35:49542] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\s-bat\\laravel-api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php on line 333, referer: http://localhost:3000/videocompare
 [Fri Dec 20 17:37:03.034822 2019] [php7:error] [pid 8136:tid 856] [client 192.168.128.35:49539] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\s-bat\\laravel-api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php on line 333, referer: http://localhost:3000/videocompare
 [Fri Dec 20 17:37:03.034822 2019] [php7:error] [pid 8136:tid 812] [client 192.168.128.35:49579] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\s-bat\\laravel-api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php on line 333, referer: http://localhost:3000/videocompare
+[Fri Dec 27 14:32:56.592768 2019] [ssl:warn] [pid 9240:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 14:32:56.698778 2019] [ssl:warn] [pid 9240:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 14:32:57.001808 2019] [ssl:warn] [pid 9224:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 14:32:57.094818 2019] [ssl:warn] [pid 9224:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 14:33:05.232631 2019] [ssl:warn] [pid 14664:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 14:33:05.339642 2019] [ssl:warn] [pid 14664:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 14:33:05.640672 2019] [ssl:warn] [pid 8668:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 14:33:05.735682 2019] [ssl:warn] [pid 8668:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:04:37.073797 2019] [ssl:warn] [pid 12932:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:04:37.173807 2019] [ssl:warn] [pid 12932:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:04:37.476837 2019] [ssl:warn] [pid 8332:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:04:37.572847 2019] [ssl:warn] [pid 8332:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:17:31.982093 2019] [ssl:warn] [pid 8324:tid 388] AH01906: sbatapi:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:17:31.982093 2019] [ssl:warn] [pid 8324:tid 388] AH01909: sbatapi:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 15:17:32.093060 2019] [ssl:warn] [pid 8324:tid 388] AH01906: sbatapi:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:17:32.093060 2019] [ssl:warn] [pid 8324:tid 388] AH01909: sbatapi:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 15:17:32.413964 2019] [ssl:warn] [pid 13560:tid 264] AH01906: sbatapi:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:17:32.413964 2019] [ssl:warn] [pid 13560:tid 264] AH01909: sbatapi:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 15:17:32.506936 2019] [ssl:warn] [pid 13560:tid 264] AH01906: sbatapi:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:17:32.506936 2019] [ssl:warn] [pid 13560:tid 264] AH01909: sbatapi:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 15:19:47.529636 2019] [ssl:warn] [pid 11472:tid 388] AH01906: api.sbat.jp:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:19:47.529636 2019] [ssl:warn] [pid 11472:tid 388] AH01909: api.sbat.jp:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 15:19:47.654624 2019] [ssl:warn] [pid 11472:tid 388] AH01906: api.sbat.jp:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:19:47.654624 2019] [ssl:warn] [pid 11472:tid 388] AH01909: api.sbat.jp:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 15:19:47.978591 2019] [ssl:warn] [pid 2224:tid 264] AH01906: api.sbat.jp:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:19:47.978591 2019] [ssl:warn] [pid 2224:tid 264] AH01909: api.sbat.jp:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 15:19:48.073582 2019] [ssl:warn] [pid 2224:tid 264] AH01906: api.sbat.jp:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:19:48.073582 2019] [ssl:warn] [pid 2224:tid 264] AH01909: api.sbat.jp:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 15:20:47.683620 2019] [autoindex:error] [pid 2224:tid 864] [client ::1:61945] AH01276: Cannot serve directory C:/s-bat/laravel-api/public/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Dec 27 15:52:02.568360 2019] [ssl:warn] [pid 13980:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:52:02.762379 2019] [ssl:warn] [pid 13980:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:52:03.113414 2019] [ssl:warn] [pid 15188:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:52:03.207424 2019] [ssl:warn] [pid 15188:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:52:42.446347 2019] [ssl:warn] [pid 9992:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:52:42.552358 2019] [ssl:warn] [pid 9992:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:52:42.854388 2019] [ssl:warn] [pid 10256:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:52:42.948398 2019] [ssl:warn] [pid 10256:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:53:45.698672 2019] [ssl:warn] [pid 7816:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:53:45.809683 2019] [ssl:warn] [pid 7816:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:53:46.114714 2019] [ssl:warn] [pid 11184:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 15:53:46.217724 2019] [ssl:warn] [pid 11184:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:26:57.821993 2019] [ssl:warn] [pid 12948:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:26:57.821993 2019] [ssl:warn] [pid 12948:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:26:57.919983 2019] [ssl:warn] [pid 12948:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:26:57.919983 2019] [ssl:warn] [pid 12948:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:26:58.246950 2019] [ssl:warn] [pid 13252:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:26:58.246950 2019] [ssl:warn] [pid 13252:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:26:58.342941 2019] [ssl:warn] [pid 13252:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:26:58.342941 2019] [ssl:warn] [pid 13252:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:38:15.535433 2019] [ssl:warn] [pid 1824:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:38:15.535433 2019] [ssl:warn] [pid 1824:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:38:15.639433 2019] [ssl:warn] [pid 1824:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:38:15.639433 2019] [ssl:warn] [pid 1824:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:38:15.960433 2019] [ssl:warn] [pid 12880:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:38:15.960433 2019] [ssl:warn] [pid 12880:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:38:16.054433 2019] [ssl:warn] [pid 12880:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:38:16.054433 2019] [ssl:warn] [pid 12880:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:42:19.118433 2019] [ssl:warn] [pid 9408:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:42:19.118433 2019] [ssl:warn] [pid 9408:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:42:19.230433 2019] [ssl:warn] [pid 9408:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:42:19.230433 2019] [ssl:warn] [pid 9408:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:42:19.551433 2019] [ssl:warn] [pid 10568:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:42:19.551433 2019] [ssl:warn] [pid 10568:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 27 16:42:19.649433 2019] [ssl:warn] [pid 10568:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Dec 27 16:42:19.649433 2019] [ssl:warn] [pid 10568:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 08:53:42.288279 2020] [ssl:warn] [pid 1920:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 08:53:42.303879 2020] [ssl:warn] [pid 1920:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 08:53:43.941882 2020] [ssl:warn] [pid 1920:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 08:53:43.941882 2020] [ssl:warn] [pid 1920:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 08:53:44.207082 2020] [ssl:warn] [pid 1572:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 08:53:44.207082 2020] [ssl:warn] [pid 1572:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 08:53:44.269482 2020] [ssl:warn] [pid 1572:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 08:53:44.269482 2020] [ssl:warn] [pid 1572:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 09:27:11.419361 2020] [ssl:warn] [pid 8640:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 09:27:11.419361 2020] [ssl:warn] [pid 8640:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 09:27:11.973306 2020] [ssl:warn] [pid 8640:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 09:27:11.973306 2020] [ssl:warn] [pid 8640:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 09:27:12.398263 2020] [ssl:warn] [pid 8012:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 09:27:12.398263 2020] [ssl:warn] [pid 8012:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 09:27:12.514252 2020] [ssl:warn] [pid 8012:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 09:27:12.514252 2020] [ssl:warn] [pid 8012:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 11:03:10.687356 2020] [ssl:warn] [pid 5032:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 11:03:10.687356 2020] [ssl:warn] [pid 5032:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 11:03:10.831371 2020] [ssl:warn] [pid 5032:tid 388] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 11:03:10.831371 2020] [ssl:warn] [pid 5032:tid 388] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 11:03:11.162404 2020] [ssl:warn] [pid 11464:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 11:03:11.162404 2020] [ssl:warn] [pid 11464:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 11:03:11.257413 2020] [ssl:warn] [pid 11464:tid 264] AH01906: localhost:7000:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 06 11:03:11.257413 2020] [ssl:warn] [pid 11464:tid 264] AH01909: localhost:7000:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 06 11:04:17.053992 2020] [autoindex:error] [pid 11464:tid 864] [client 192.168.128.19:53612] AH01276: Cannot serve directory C:/s-bat/laravel-api/public/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
