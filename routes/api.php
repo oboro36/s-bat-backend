@@ -18,7 +18,7 @@ use Illuminate\Http\Request;
 // });
 
 Route::get('/test', function (Request $request) {
-    return response()->json(['Laravel 6 CORS Example Test']);
+    return response()->json(['Laravel CORS Example Test']);
 });
 
 //Video Search

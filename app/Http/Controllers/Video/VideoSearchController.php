@@ -61,6 +61,7 @@ class VideoSearchController extends Controller
         $JSdata = json_decode($payload, true); // to Array (if 'false' -> to stdClass)
 
         $site = $JSdata['site'];
+        $line = $JSdata['line'];
 
         $programs = DB::table('TBL_RESULT_HEADER AS RH')
             ->select('RH.PROGRAM_NO AS index', 'MP.PROGRAM AS value')
@@ -69,6 +70,7 @@ class VideoSearchController extends Controller
                 $join->on('MP.PROGRAM_NO', '=', 'RH.PROGRAM_NO');
             })
             ->where('RH.SITE', $site)
+            ->where('RH.LINE', $line)
             ->groupby('RH.PROGRAM_NO', 'MP.PROGRAM_NO', 'MP.PROGRAM')
             ->get();
 
