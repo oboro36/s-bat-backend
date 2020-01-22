@@ -201,7 +201,11 @@ class VideoSearchController extends Controller
             ->where('MACHINE_CODE', $machine)
             ->where('ANALYSIS_DATE', $choice1['analysisdate'])
             ->leftJoin('TBL_RESULT_IMAGE', 'TBL_RESULT_HEADER.RESULT_NO', '=', 'TBL_RESULT_IMAGE.RESULT_NO')
-            ->leftJoin('TBL_RESULT_CSV', 'TBL_RESULT_HEADER.RESULT_NO', '=', 'TBL_RESULT_CSV.RESULT_NO')
+            ->leftJoin('TBL_RESULT_CSV', function ($join) {
+                $join->on('TBL_RESULT_CSV.RESULT_NO', '=', 'TBL_RESULT_IMAGE.RESULT_NO');
+                $join->on('TBL_RESULT_CSV.CHAMBER_CODE', '=', 'TBL_RESULT_IMAGE.CHAMBER_CODE');
+                $join->on('TBL_RESULT_CSV.POSITION', '=', 'TBL_RESULT_IMAGE.POSITION');
+            })
             ->orderBy('TBL_RESULT_IMAGE.CHAMBER_CODE', 'ASC')
             ->orderBy('TBL_RESULT_IMAGE.POSITION', 'ASC')
             ->get();
@@ -222,7 +226,11 @@ class VideoSearchController extends Controller
             ->where('MACHINE_CODE', $machine)
             ->where('ANALYSIS_DATE', $choice2['analysisdate'])
             ->leftJoin('TBL_RESULT_IMAGE', 'TBL_RESULT_HEADER.RESULT_NO', '=', 'TBL_RESULT_IMAGE.RESULT_NO')
-            ->leftJoin('TBL_RESULT_CSV', 'TBL_RESULT_HEADER.RESULT_NO', '=', 'TBL_RESULT_CSV.RESULT_NO')
+            ->leftJoin('TBL_RESULT_CSV', function ($join) {
+                $join->on('TBL_RESULT_CSV.RESULT_NO', '=', 'TBL_RESULT_IMAGE.RESULT_NO');
+                $join->on('TBL_RESULT_CSV.CHAMBER_CODE', '=', 'TBL_RESULT_IMAGE.CHAMBER_CODE');
+                $join->on('TBL_RESULT_CSV.POSITION', '=', 'TBL_RESULT_IMAGE.POSITION');
+            })
             ->orderBy('TBL_RESULT_IMAGE.CHAMBER_CODE', 'ASC')
             ->orderBy('TBL_RESULT_IMAGE.POSITION', 'ASC')
             ->get();
