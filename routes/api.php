@@ -17,10 +17,6 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-Route::get('/test', function (Request $request) {
-    return response()->json(['Laravel CORS Example Test']);
-});
-
 //Video Search
 Route::post('/getVideoSiteOption', 'Video\VideoSearchController@getVideoSiteOption');
 Route::post('/getVideoProgramLineOption', 'Video\VideoSearchController@getVideoProgramLineOption');
