@@ -18,7 +18,7 @@ use Illuminate\Http\Request;
 // });
 
 Route::get('/getCertificate', function (Request $request) {
-    return response()->json(['Site access allowed']);
+    return response()->json(['Data access allowed']);
 });
 //Video Search
 Route::post('/getVideoSiteOption', 'Video\VideoSearchController@getVideoSiteOption');
