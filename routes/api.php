@@ -17,6 +17,9 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
+Route::get('/getCertificate', function (Request $request) {
+    return response()->json(['Site access allowed']);
+});
 //Video Search
 Route::post('/getVideoSiteOption', 'Video\VideoSearchController@getVideoSiteOption');
 Route::post('/getVideoProgramLineOption', 'Video\VideoSearchController@getVideoProgramLineOption');
